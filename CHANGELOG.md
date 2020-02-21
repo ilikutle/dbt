@@ -8,6 +8,7 @@
 - Fix issue where dbt did not give an error in the presence of duplicate doc names ([#2054](https://github.com/fishtown-analytics/dbt/issues/2054), [#2080](https://github.com/fishtown-analytics/dbt/pull/2080))
 - Include vars provided to the cli method when running the actual method ([#2092](https://github.com/fishtown-analytics/dbt/issues/2092), [#2104](https://github.com/fishtown-analytics/dbt/pull/2104))
 - Improved error messages with malformed packages.yml ([#2017](https://github.com/fishtown-analytics/dbt/issues/2017), [#2078](https://github.com/fishtown-analytics/dbt/pull/2078))
+- Set more upper bounds for jinja2,requests, and idna dependencies, upgrade snowflake-connector-python ([#2147](https://github.com/fishtown-analytics/dbt/issues/2147), [#2151](https://github.com/fishtown-analytics/dbt/pull/2151))
 
 Contributors:
  - [@bubbomb](https://github.com/bubbomb) ([#2080](https://github.com/fishtown-analytics/dbt/pull/2080))
